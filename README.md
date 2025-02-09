@@ -33,13 +33,5 @@ The processing pipeline consists of the following steps:
 Technologies used: **LangChain** - Manages the chatbot pipeline.
 
 ## Demo
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/73a9f5b6-9b4b-4d5a-a489-d4e1fa9ccf64" width="45%" />
-  <img src="https://github.com/user-attachments/assets/33408377-7802-4fff-a680-05b3107a04ae" width="45%" />
-</p>
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/571ffd98-c163-489d-a6f2-337e7e4b6b5b" width="45%" />
-</p>
-
+![image](https://github.com/user-attachments/assets/73a9f5b6-9b4b-4d5a-a489-d4e1fa9ccf64)
+  
