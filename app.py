@@ -38,6 +38,13 @@ model = ChatBotUS()
 with st.sidebar:
     database = st.radio("Hãy chọn nguồn", ["📕Sổ Tay Sinh Viên", "📄PDF",'🔗URL'])
     
+    if database == '🔗URL':
+        url = st.text_input('Bạn hãy nhập ')
+        if url: 
+            if "model" not in st.session_state or st.session_state.type != database:
+                st.session_state.model = ChatBotUS(url=url)
+                st.session_state.type = database
+            
     
         
     if database == '📕Sổ Tay Sinh Viên':
